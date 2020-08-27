@@ -1,0 +1,73 @@
+
+.container{
+	margin-top: 50px;
+}
+
+.row{
+	margin-top: 30px;
+}
+
+
+
+/* это способ растянуть элементы navbar 
+на всю ширину, но тогда страдает 
+адаптивная верстка
+.navbar-nav {
+    display:table;
+    width:100%;
+    margin: 0;
+}
+.navbar-nav li {
+    float:none;
+    display:table-cell;
+    text-align:center;
+}
+*/
+
+.logo a{
+    text-decoration: none;
+    color:black;
+}
+
+.contact{
+    text-decoration:none;
+    list-style: none;
+}
+
+.col-sm-4 a{
+    color: orange;
+}
+
+.col-sm-4 a:hover{
+    color: grey;
+    text-decoration:none;
+}
+
+
+
+p, h3{
+    margin-top:20px;
+}
+
+
+footer{
+	background-color: #d5d5d5;
+	height: 200px;
+}
+
+.contact{
+    margin-top: 45px;
+}
+
+.contact li{
+    margin-bottom: 10px;
+}
+
+.contact a{
+    color: black;
+}
+
+.contact a:hover{
+    color:white;
+    text-decoration:none;
+}
